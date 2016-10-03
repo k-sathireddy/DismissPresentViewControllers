@@ -16,6 +16,7 @@
 		E62C5B501DA212860069BED6 /* DismissPresentViewControllersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62C5B4F1DA212860069BED6 /* DismissPresentViewControllersUITests.swift */; };
 		E62C5B5E1DA212E10069BED6 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62C5B5D1DA212E10069BED6 /* ViewController2.swift */; };
 		E62C5B601DA212EB0069BED6 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62C5B5F1DA212EB0069BED6 /* ViewController3.swift */; };
+		E62C5B621DA21C2F0069BED6 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62C5B611DA21C2F0069BED6 /* Start.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E62C5B511DA212860069BED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E62C5B5D1DA212E10069BED6 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		E62C5B5F1DA212EB0069BED6 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		E62C5B611DA21C2F0069BED6 /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E62C5B5D1DA212E10069BED6 /* ViewController2.swift */,
 				E62C5B5F1DA212EB0069BED6 /* ViewController3.swift */,
 				E62C5B331DA212860069BED6 /* Main.storyboard */,
+				E62C5B611DA21C2F0069BED6 /* Start.storyboard */,
 				E62C5B361DA212860069BED6 /* Assets.xcassets */,
 				E62C5B381DA212860069BED6 /* LaunchScreen.storyboard */,
 				E62C5B3B1DA212860069BED6 /* Info.plist */,
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E62C5B3A1DA212860069BED6 /* LaunchScreen.storyboard in Resources */,
+				E62C5B621DA21C2F0069BED6 /* Start.storyboard in Resources */,
 				E62C5B371DA212860069BED6 /* Assets.xcassets in Resources */,
 				E62C5B351DA212860069BED6 /* Main.storyboard in Resources */,
 			);
@@ -520,6 +524,7 @@
 				E62C5B561DA212860069BED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E62C5B571DA212860069BED6 /* Build configuration list for PBXNativeTarget "DismissPresentViewControllersTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				E62C5B591DA212860069BED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E62C5B5A1DA212860069BED6 /* Build configuration list for PBXNativeTarget "DismissPresentViewControllersUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				E62C5B5C1DA212860069BED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

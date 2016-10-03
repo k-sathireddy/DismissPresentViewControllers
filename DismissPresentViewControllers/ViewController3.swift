@@ -16,5 +16,11 @@ class ViewController3: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func dismissViewControllerOnClick(_ sender: AnyObject) {
+        
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 
 }
